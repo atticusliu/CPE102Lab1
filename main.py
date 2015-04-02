@@ -47,7 +47,7 @@ def draw(screen, balls) :
 
 def move(balls, width, height):
    for ball in balls:
-      move_ball(ball, width, height, balls)
+      move_ball(width, height, balls)
 
 
 def event_loop(screen, balls, width, height):
